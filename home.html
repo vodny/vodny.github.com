@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
+html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Архитектура ЭВМ</title>
+<link rel="stylesheet" media="screen" type="text/css" title="Style" href="css/style-evm.css">
+<!--[if IE 7]>
+<link rel="stylesheet" media="screen" type="text/css" title="Style" href="css/ie7-evm.css" />
+<![endif]-->
+</head>
+<body>
+
+	<div id="status-bar">
+		<div id="status-bar-content">
+			<form action="#search" method="post" id="search-form">
+				<p>
+				<input type="text" name="query" value="Поиск" />
+				<input type="submit" name="submit" value="Поиск!" />
+				</p>
+			</form>
+			
+			<div id="status-bar-commands">
+				<p id="welcome">Добро пожаловать, гость!</p>
+				<p id="action-bar">
+					<a href="#login" title="Login">Вход</a>
+					<a href="#sitemap" title="Registration">Регистрация</a>
+					<a href="#license" title="Sitemap">Карта сайта</a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="header">
+	<div id="logo">
+	</div>
+	</div>
+    
+	<div id="content-top-shadow"></div>
+	<div id="content">
+		<ul id="tabs"> <!-- Вкладочки -->
+		<li id="home">
+			<a href="#home" title="Главная">Главная</a>
+		</li>
+		<li id="about">
+			<a href="#about" title="О ресурсе">О ресурсе</a>
+		</li>
+		<li id="lessons">
+			<a href="#lessons" title="Уроки">Уроки</a>
+		</li>
+		<li id="contact">
+			<a href="#contact" title="Контакты">Контакты</a>
+		</li>
+		<li id="blog">
+			<a href="#blog" title="Блог">Блог</a>
+		</li>
+		</ul>
+    
+		<div id="page-wrapper"> <!-- центральный блок -->
+			<div id="slideshow">
+            	<div id="slides">
+					<a href="#lesson.work1" title="Схема машины фон Неймана">
+                    	<img src="images/1.png" alt="Архитектура фон Неймана" /> <!-- изобр. слайда --> 
+                    </a>
+                </div>
+                    
+			<div id="slideshow-commands"> <!-- листание -->
+				<a href="#previous" title="Previous" id="previous-slide">&lt;</a>
+				<a href="#next" title="Next" id="next-slide">&gt;</a>
+				<h4>
+					<a href="#lesson.work1" title="Схема машины фон Неймана" id="slide-title">Архитектура фон Неймана</a>	 
+				</h4>
+			</div>
+			</div>
+		</div>
+        
+        <div class="module" id="news"> <!-- Блок новостей -->
+			<h4 class="module-header-bar">Новости</h4>
+				<div class="news-entry">
+					<h5><a href="#newsentry1" title="Микропроцессоры">Микропроцессоры</a></h5> <!-- Темы из блога -->
+					<p class="meta">Автор: Иван Дата: 06.10.12</p>
+						<blockquote class="content">
+						<p>
+						Понятие микропроцессора. Архитектура микропроцессоров. Режим работы микропроцессоров.
+                		</p>
+						</blockquote>
+				</div>
+				<div class="news-entry">
+					<h5><a href="#newsentry2" title="Обмен информации">Обмен информации</a>	 </h5>
+					<p class="meta">Автор: Юлия Дата: 05.11.12.</p>
+						<blockquote class="content">
+						<p>
+						Типы обмена информации по шинам. Прохождение сгналов по магистрали. Организация работы с памятью компьютера.
+                		</p>
+						</blockquote>
+				</div>
+				<div class="news-entry">
+					<h5><a href="#newsentry3" title="Интерфейсы">Интерфейсы</a></h5>
+					<p class="meta">Автор: Алексей Дата: 06.12.12.</p>
+						<blockquote class="content">
+						<p>
+                		Ситемная магистраль ISA. Интерфейс Centronics. Интерфейс RS-232C. Интерфейс шины PCI. Стандарт интерфейса PCMCIA.
+						</p>
+						</blockquote>
+				</div>
+        		
+                <p id="read-more-wrapper">
+				<a href="#news" title="Смотри еще">Смотри еще</a>
+                </p>
+                
+		</div>
+        
+        <div class="module" id="forum">
+			<h4 class="module-header-bar">Форум</h4>
+				<div class="tweet">
+					<img src="images/tw1.png" alt="Андрей Иванов" />
+					<h5><a href="#@АндрейИванов" title="Андрей Иванов">Андрей Иванов</a></h5>
+						<blockquote>
+						<p>
+						Механические компьютеры (нулевое поколение).
+                        </p>
+						</blockquote>
+				</div>
+				<div class="tweet">
+					<img src="images/tw2.png" alt="Борис Беленко" />
+					<h5><a href="#@БорисБеленко" title="Борис Беленко">Борис Беленко</a></h5>
+						<blockquote>
+						<p>
+						История IBP PC.
+                        </p>
+						</blockquote>
+				</div>
+				<div class="tweet">
+					<img src="images/tw3.png" alt="Милена Бойко" />
+					<h5><a href="#@МиленаБойко" title="Милена Бойко">Милена Бойко</a></h5>
+						<blockquote>
+						<p>
+						Идея создания семейств компьютеров.
+                    	</p>
+						</blockquote>
+				</div>
+				<div class="tweet">
+					<img src="images/tw4.png" alt="Анжелла Брусникина" />
+					<h5><a href="#@АнжеллаБрусникина" title="Анжелла Брусникина">Анжелла Брусникина</a></h5>
+						<blockquote>
+						<p>
+						Арифметический блок и блок управления.
+						</p>
+						</blockquote>
+				</div>
+			
+            <p id="get-tweets-wrapper">
+				<a href="#forum">Смотри еще</a>
+                </p>
+                
+		</div>
+        
+        
+	</div><!--end content-->
+	
+	<div id="content-bottom-shadow"></div>
+    
+    <div id="footer">
+		<div id="footer-image"></div>
+		<p id="footer-text"> 
+			Copyright © 2012 Igor Tatarenko<br /> All Rights Reserved
+		</p>
+	</div>
+    
+</body>
+</html>
