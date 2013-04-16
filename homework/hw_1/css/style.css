@@ -143,7 +143,22 @@ footer hr{
 	margin: 0;
 	left: 50%;
 	top: 20px;
-	margin: auto;
+	margin-left: -205px;
+}
+
+.navigation a {
+	font-family: "PT Sans", sans-serif;
+	font-size: 14px;
+	color: #003366;
+	font-weight: normal;
+	margin: 10px;
+}
+
+/* текст едет. переделать */
+.navigation a:hover {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
 }
 
 .content {
