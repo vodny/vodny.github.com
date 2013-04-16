@@ -141,9 +141,8 @@ footer hr{
 	width: 100%;
 	position: absolute;
 	margin: 0;
-	left: 50%;
 	top: 20px;
-	margin-left: -205px;
+	padding-left: 460px;
 }
 
 .navigation a {
