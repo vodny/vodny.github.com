@@ -37,7 +37,7 @@ body {
 	font-family: "PT Sans", sans-serif;
 	font-size: 24px;
 	font-weight: bold;
-	margin-top: 15px;
+	margin-top: 10px;
 }
 
 .enter {
@@ -45,8 +45,6 @@ body {
 	margin-top: -50px;
 	color: #666666;
 	font-size: 14px;
-	text-decoration:none;
-	border-bottom: 1px dotted;
 }
 
 .logo {
@@ -116,11 +114,116 @@ footer{
 	font-size: 12px;
 	width: 800px;
 	margin: auto;
-	margin-bottom: 80px;
-	padding: 100px 0 0 40px;
 }
 
 footer hr{
 	width: 100%;
 	color: #8e8e8e;
+}
+
+
+
+/* hw 1.1 */
+
+/* menu 
+
+.menu {
+	margin:0px;
+	padding:0px;
+	float:right;
+	width:118px;
+	
+}
+
+*/
+
+.navigation {
+	width: 100%;
+	position: absolute;
+	margin: 0;
+	left: 50%;
+	top: 20px;
+	margin: auto;
+}
+
+.content {
+	margin: auto;
+	width: 800px;
+	padding-top: 96px;
+}
+
+aside {
+	float: left;
+	width: 175px;
+	padding-top: 140px;
+	padding-right: 25px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+}
+
+h2 {
+	margin-bottom: 60px;
+	font-family: "PT Serif", serif;
+	font-size: 24px;
+}
+
+.primary {
+	float: left;
+	width: 600px;
+	margin-bottom: 75px;
+}
+
+.hr {
+	/* background-image: url(../img/hr.png);
+	background-repeat: repeat-x; */
+	border: none;
+	color: #b2b2b2;
+	background: #b2b2b2;
+	background-color: #b2b2b2;
+	height: 3px;
+	width: 800px;
+	margin: auto;
+}
+
+.other {
+	width: 800px;
+	margin: auto;
+	padding-bottom: 285px;
+}
+
+.other  p {
+	clear: both;
+	font-family: "PT Sans", sans-serif;
+	font-size: 14px;
+	color: #333333;
+	font-weight: bold;
+	width: 120px;
+	float: left;
+	margin-right: 70px;
+	
+}
+
+.materials {
+	width: 190px;
+	padding: 5px;
+	padding-top: 20px;
+	float:left;
+}
+
+.materials h4, .materials a{
+	font-family: "PT Sans", sans-serif;
+	font-size: 14px;
+	color: #003366;
+	margin: 0;
+	padding: 0;
+	width: 190px;
+}
+.materials p{
+	font-family: "PT Sans", sans-serif;
+	font-size: 12px;
+	color: #333333;
+	margin: 0;
+	padding: 0;
+	width: 190px;
 }
